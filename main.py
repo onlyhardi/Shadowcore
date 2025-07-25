@@ -1,4 +1,4 @@
-Enterimport asyncio
+import asyncio
 import httpx
 import json
 import logging
@@ -11,7 +11,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 # --- IMPORTANT: FILL IN YOUR ACTUAL VALUES HERE ---
 # DO NOT COMMIT THESE VALUES TO GITHUB PUBLICLY!
 # For production, use environment variables or GitHub Secrets.
-TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
+TELEGRAM_BOT_TOKEN = "8421114487:AAH6PoGjlqrjUNmKVjfbBfYZEIElGDPG0Ug"
 TELEGRAM_CHANNEL_ID = -1001234567890 # Replace with your channel ID (e.g., -1001234567890)
 SOLANA_RPC_URL = "https://api.mainnet-beta.solana.com" # Or your preferred RPC provider (e.g., QuickNode, Helius)
 BIRDEYE_API_KEY = "YOUR_BIRDEYE_API_KEY_HERE" # Get one from https://birdeye.so/api-access
